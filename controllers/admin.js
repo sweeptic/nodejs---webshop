@@ -1,6 +1,6 @@
 exports.getProducts = (req, res, next) => {
    res.render('admin/products', {
-      pageTitle: 'Products',
+      pageTitle: 'Admin Products',
       path: '/admin/products'
    })
 }

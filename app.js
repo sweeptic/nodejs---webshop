@@ -10,7 +10,7 @@ const shopRoutes = require('./routes/shop');
 const errorController = require('./controllers/error');
 
 // routes
-app.use('/', adminRoutes);
+app.use('/admin', adminRoutes);
 app.use(express.static(path.join(__dirname, 'public')));
 // app.use(shopRoutes);
 // app.use(errorController.get404);
